@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkSat - Satellite & Space Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital@1&family=Inter+Tight:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/bruno-ace-sc" rel="stylesheet">
+    <link rel="shortcut icon" href="./icons/spaceshipworld.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav__pactual">
+                <li><img class="header_icon" src="./icons/home.png" alt="Home"><span>HOME</span></li>
+            </ul>
+            <ul class="nav__menu">
+                <li><a href="./pages/servicios.html">SERVICIOS</a></li>
+                <li>|</li>
+                <li><a href="./pages/satelites.html">SATELITES</a></li>
+                <li>|</li>
+                <li><a href="./pages/sobrenosotros.html">SOBRE NOSOTROS</a></li>
+                <li>|</li>
+                <li><a href="./pages/contacto.html">CONTACTO</a></li>
+            </ul>
+            <ul class="nav__mobile__menu">
+                <li>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark"><span class="navbar-toggler-icon"><img class="header__mobile__icon" src="./icons/hambicon.png" alt=""></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel" aria-modal="true" role="dialog">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">MENU</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="./pages/servicios.html">SERVICIOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/satelites.html">SATELITES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/sobrenosotros.html">SOBRE NOSOTROS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="titulo">
+            <img class="titulo__icono" src="./icons/spaceshipworld.png" alt="Icono cohete1">
+            <h1>DARK<span class="h1__color--blue">SAT</span>- Satellite & Network Services</h1>
+        </div>
+        <div class="main__grid">
+            <div class="main__description">
+                <ul>
+                    <li>
+                        <img  class="main__icons animacion__rocket" src="./icons/rocket.png" alt="Icono cohete2">
+                        <span> SERVICIOS DE SOPORTE DE LEOP (FASE DE LANZAMIENTO Y ORBITA TEMPRANA) </span>
+                    </li>
+                    <li>
+                    <img  class="main__icons animacion__girar" src="./icons/planets.png" alt="Icono planeta">
+                    <span> EXPLORACIONES DE ESPACIO PROFUNDO </span>
+                    </li>
+                    <li>
+                        <img  class="main__icons animacion__girar" src="./icons/satellite.png" alt="Icono satelite">
+                        <span> SOPORTE E INGENIERIA SATELITAL </span>
+                    </li>
+                    <li>
+                        <img  class="main__icons animacion__girar" src="./icons/network.png" alt="Icono internet">
+                        <span> SERVICIOS DE INTERNET</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval = "5000">
+                        <h5>30/09/2015 - SERVICIOS DE SOPORTE DE LEOP ARSAT-2</h5>
+                        <img class="d-block w-50 carousel__img" src="./images/antenaleop.jpg" alt="">
+                        <p>Brindamos soporte durante la campaña de lanzamiento del satelite ARSAT-2 de la empresa Argentina ARSAT S.A.</p>
+                        <p>Utilizando equipamiento propio fuimos estación de respaldo durante el lanzamiento y la puesta en orbita geoestacionaria del satelite.
+                        </p>
+                    </div>
+                <div class="carousel-item" data-bs-interval = "5000">
+                    <h5>10/10/2022 - SERVICIOS DE INTERNET</h5>
+                    <img class="d-block w-50 carousel__img" src="./images/tendidofo.jpg" alt="">
+                    <p>Seguimos colaborando con el tendido de FO para lograr llegar a todos los rincones del país y ofrecer nuestros servicios.</p>
+                    <p>Hasta la fecha logramos interconectar todas las provincias del país en los puntos mas importantes</p>
+                    <p>Para 2024 estimamos tener más de 10.000 localidades conectadas a la red.</p>
+                </div>
+                <div class="carousel-item" data-bs-interval = "5000">
+                    <h5>EXPLORACIONES DE ESPACIO PROFUNDO</h5>
+                    <img class="d-block w-50 carousel__img" src="./images/deepspace.jpg" alt="">
+                    <p>Colaboramos con la red de investigaciones de espacio profundo (DSN).</p>
+                    <p>En el último año colaboramos con la red de espacio profundo, ayudando con la recolección de datos.</p>
+                    <p>Brindamos nuestro apoyo a la estaciones de Madrid (ES), Camberra (AU) y Goldstone (EUA) para las investigaciones.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="items"></div>
+        <div class=" items autor">
+            © Desarrollado por Pablo Galeano 2022
+        </div>
+        <div class="items footer__icon">
+            <img class="footer__icons__smedia" src="./icons/facebook.png" alt="Facebook">
+            <img class="footer__icons__smedia" src="./icons/instagram.png" alt="Instagram">
+            <img class="footer__icons__smedia" src="./icons/twitter.png" alt="Twitter">
+            <img class="footer__icons__smedia" src="./icons/linkedin.png" alt="LinkedIn">
+        </div>
+    </footer>
+</body>
+
+</html>
