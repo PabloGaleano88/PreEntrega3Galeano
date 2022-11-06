@@ -1,0 +1,28 @@
+footer{
+    @include flex-acenter;
+    @include fuenteycolor;
+    height: 30px;
+    justify-content: center;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color:$color-fondo;
+    font-size:12px;
+}
+.items {
+    width: 100%;
+}
+.footer__icon{
+    height:25px;
+    display:flex;
+    justify-content: flex-end;
+}
+.footer__icons__smedia{
+    height:25px;
+    left:32%;
+    margin-right: 10px;
+}
+.autor{
+    display:flex;
+    justify-content: center;
+}

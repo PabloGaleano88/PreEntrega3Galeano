@@ -56,17 +56,6 @@ nav {
   display: none;
 }
 
-body {
-  background-image: url(../images/earth-1756274.jpg);
-  background-size: 100%;
-  background-attachment: fixed;
-  margin: 0px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding-right: 0px !important;
-}
-
 a {
   font-family: "Inter Tight", sans-serif;
   color: rgb(173, 176, 176);
@@ -78,6 +67,17 @@ a:hover {
   text-decoration: underline;
 }
 
+body {
+  background-image: url(../images/earth-1756274.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-right: 0px !important;
+}
+
 .titulo {
   display: flex;
   align-items: center;
@@ -87,7 +87,7 @@ a:hover {
 
 h1 {
   color: rgb(173, 176, 176);
-  font-family: "Bruno Ace SC", sans-serif;
+  font-family: "Paytone One", sans-serif;
   margin: 0px;
 }
 
@@ -161,41 +161,6 @@ h3 {
   justify-content: space-evenly;
   list-style: none;
   padding-right: 50px;
-}
-
-footer {
-  display: flex;
-  align-items: center;
-  font-family: "Inter Tight", sans-serif;
-  color: rgb(173, 176, 176);
-  height: 30px;
-  justify-content: center;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  background-color: #242424;
-  font-size: 12px;
-}
-
-.items {
-  width: 100%;
-}
-
-.footer__icon {
-  height: 25px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.footer__icons__smedia {
-  height: 25px;
-  left: 32%;
-  margin-right: 10px;
-}
-
-.autor {
-  display: flex;
-  justify-content: center;
 }
 
 h2 {
@@ -405,6 +370,41 @@ label {
     transform: rotate(360deg);
   }
 }
+footer {
+  display: flex;
+  align-items: center;
+  font-family: "Inter Tight", sans-serif;
+  color: rgb(173, 176, 176);
+  height: 30px;
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #242424;
+  font-size: 12px;
+}
+
+.items {
+  width: 100%;
+}
+
+.footer__icon {
+  height: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__icons__smedia {
+  height: 25px;
+  left: 32%;
+  margin-right: 10px;
+}
+
+.autor {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .main__grid {
     grid-template-areas: "izquierda" "derecha";

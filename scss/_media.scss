@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    .main__grid {
+        grid-template-areas:
+        "izquierda"
+        "derecha";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .nav__menu{
+        display:none;
+    }
+    .nav__mobile__menu{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        grid-area: menues;    
+    }
+}
